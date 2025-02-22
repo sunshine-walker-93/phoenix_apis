@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package user.info.manage;
-option go_package = "github.com/lucky-cheerful-man/phoenix_api/protobuf.pb/user_info_manage";
+option go_package = "github.com/sunshine-walker-93/phoenix_apis/protobuf.pb/user_info_manage";
 
 service UserService {
   rpc Register(RegisterRequest) returns (RegisterResponse) {}

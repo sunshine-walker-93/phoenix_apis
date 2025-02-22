@@ -1,14 +1,16 @@
 # github.com/go-log/log v0.1.0
+## explicit
 github.com/go-log/log
 github.com/go-log/log/log
 # github.com/golang/protobuf v1.5.2
-## explicit
+## explicit; go 1.9
 github.com/golang/protobuf/jsonpb
 github.com/golang/protobuf/proto
 # github.com/google/uuid v1.1.1
+## explicit
 github.com/google/uuid
 # github.com/micro/go-micro v1.10.0
-## explicit
+## explicit; go 1.12
 github.com/micro/go-micro/broker
 github.com/micro/go-micro/client
 github.com/micro/go-micro/client/pool
@@ -33,17 +35,23 @@ github.com/micro/go-micro/util/net
 github.com/micro/go-micro/util/socket
 github.com/micro/go-micro/util/tls
 # github.com/micro/mdns v0.3.0
+## explicit
 github.com/micro/mdns
 # github.com/miekg/dns v1.1.15
+## explicit
 github.com/miekg/dns
 # github.com/mitchellh/hashstructure v1.0.0
+## explicit
 github.com/mitchellh/hashstructure
 # github.com/pkg/errors v0.8.1
+## explicit
 github.com/pkg/errors
 # golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
+## explicit
 golang.org/x/crypto/ed25519
 golang.org/x/crypto/ed25519/internal/edwards25519
 # golang.org/x/net v0.0.0-20190724013045-ca1201d0de80
+## explicit; go 1.11
 golang.org/x/net/bpf
 golang.org/x/net/http/httpguts
 golang.org/x/net/http2
@@ -55,15 +63,17 @@ golang.org/x/net/internal/socket
 golang.org/x/net/ipv4
 golang.org/x/net/ipv6
 # golang.org/x/sys v0.0.0-20190812073006-9eafafc0a87e
+## explicit; go 1.12
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 # golang.org/x/text v0.3.2
+## explicit
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
 # google.golang.org/protobuf v1.26.0
-## explicit
+## explicit; go 1.9
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire

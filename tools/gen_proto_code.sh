@@ -12,6 +12,7 @@ export project_dir="${current_dir%/tools}"      # 项目目录
 export project_tools_dir="${project_dir}/tools" # 项目工具目录
 
 # source core script
+echo "Source core script"
 source ./core_script/common_func.sh
 source ./core_script/get_proto_include.sh
 source ./core_script/wrapper_activate.sh
