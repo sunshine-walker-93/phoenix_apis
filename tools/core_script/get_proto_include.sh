@@ -16,6 +16,9 @@ filter_protobuf_module() {
 }
 
 # mkdir to hold dependencies
+current_project_module=$(go list -mod=mod -m)
+echo "Current project module: ${current_project_module}"
+
 go list -mod=mod -f "{{ .Path }}" -m all | filter_protobuf_module | xargs -L1 dirname | sort | uniq |
   awk -v pi_dir="${proto_include_dir}" '{print pi_dir"/"$1}' |
   xargs mkdir -p
